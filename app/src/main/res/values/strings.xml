@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">Seminar Registration App</string>
+    <string name="welcome_user">%1$s!</string>
+
+
+    <!-- Form Labels -->
+    <string name="label_nama">Nama Lengkap</string>
+    <string name="label_email">Alamat Email</string>
+    <string name="label_hp">Nomor HP</string>
+    <string name="label_gender">Jenis Kelamin</string>
+    <string name="label_seminar">Pilih Seminar</string>
+    <string name="label_persetujuan">Saya menyetujui data yang diinput benar</string>
+    <string name="btn_submit">Daftar Sekarang</string>
+
+    <string-array name="seminar_list">
+        <item>Pilih Seminar</item>
+        <item>Digital Glow Up 📱✨</item>
+        <item>Mind Matters 🧠☕</item>
+        <item>Creative Future 🎨💻</item>
+        <item>Study Smarter 📚⚡</item>
+        <item>Speak &amp; Shine 🎤🌟</item>
+    </string-array>
+
+    <string name="title_form">Form Pendaftaran Seminar</string>
+    <string name="gender_laki">Laki-laki</string>
+    <string name="gender_perempuan">Perempuan</string>
+
+    <!-- Error Messages -->
+    <string name="error_empty">Field ini wajib diisi</string>
+    <string name="error_email_invalid">Email tidak valid (harus mengandung @)</string>
+    <string name="error_hp_invalid">HP minimal 10-13 digit dan diawali 08</string>
+    <string name="error_persetujuan">Anda harus menyetujui persyaratan</string>
+    <string name="error_password_not_match">Password tidak cocok</string>
+
+    <!-- Dialog -->
+    <string name="dialog_title">Konfirmasi Pendaftaran</string>
+    <string name="dialog_message">Apakah data yang Anda isi sudah benar?</string>
+    <string name="dialog_yes">Ya</string>
+    <string name="dialog_no">Tidak</string>
+
+    <!-- Result Page -->
+    <string name="title_result">Pendaftaran Berhasil</string>
+
+    <string name="btn_back_home">Kembali ke Beranda</string>
+    <string name="calendar">Calendar</string>
+
+    <!-- Login -->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_title">Sign In</string>
+    <string name="confirm">Confirm</string>
+    <string name="dont_have_account_register">Don\'t have an account?</string>
+    <string name="already_a_member_sign_in">Already have an account?</string>
+    <string name="create_account">Create Account</string>
+    <string name="register_title">Register</string>
+    <string name="email">email</string>
+    <string name="confirm_password">confirm password</string>
+
+    <string name="register_here">Register Here!</string>
+    <string name="self_growth_the_art_of_blooming">Self-Growth: The Art of Blooming</string>
+    <string name="user">User!</string>
+    <string name="hello">Hello,</string>
+    <string name="notifications">Notifications</string>
+    <string name="daily_growth_quote">Daily Growth Quote</string>
+    <string name="quot_grow_softly_shine_boldly_quot">\"Grow softly, shine boldly.\"</string>
+    <string name="upcoming_seminars">Upcoming Seminars</string>
+    <string name="learn_how_to_cultivate_your_inner_garden_and_shine_in_your_own_unique_way">Learn how to cultivate your inner garden and shine in your own unique way.</string>
+    <string name="success">Success</string>
+    <string name="your_registration_is_confirmed">Your registration is confirmed</string>
+    <string name="seminar_title">Seminar Title</string>
+</resources>

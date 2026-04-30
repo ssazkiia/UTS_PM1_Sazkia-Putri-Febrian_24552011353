@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#1A1A1A</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Base Theme Colors (Required by themes.xml) -->
+    <color name="primaryColor">#1A237E</color>
+    <color name="primaryDark">#000051</color>
+    <color name="secondaryColor">#00E5FF</color>
+    <color name="secondaryDark">#00B2CC</color>
+
+    <color name="backgroundColor">#F4F7FC</color>
+</resources>

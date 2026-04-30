@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="40dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                app:cardCornerRadius="40dp"
+                app:cardElevation="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="30dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="16dp"
+                        android:src="@drawable/ic_check_circle"
+                        android:contentDescription="@string/success"
+                        app:tint="#263D64" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/panaschill_font"
+                        android:text="@string/title_result"
+                        android:textColor="#263D64"
+                        android:textSize="26sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="4dp"
+                        android:fontFamily="@font/panaschill_font"
+                        android:text="@string/your_registration_is_confirmed"
+                        android:textColor="#263D64"
+                        android:textSize="14sp" />
+
+                    <!-- Data Tiket -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="24dp">
+
+                        <include layout="@layout/item_result_row" android:id="@+id/rowNama" />
+                        <include layout="@layout/item_result_row" android:id="@+id/rowEmail" />
+                        <include layout="@layout/item_result_row" android:id="@+id/rowHp" />
+                        <include layout="@layout/item_result_row" android:id="@+id/rowGender" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginBottom="16dp"
+                            android:background="#263D64"
+                            android:alpha="0.2"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/panaschill_font"
+                            android:text="@string/label_seminar"
+                            android:textColor="#263D64"
+                            android:textSize="12sp"
+                            android:textAllCaps="true"
+                            android:textStyle="bold"/>
+
+                        <TextView
+                            android:id="@+id/tvResSeminar"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="8dp"
+                            android:layout_marginBottom="32dp"
+                            android:fontFamily="@font/panaschill_font"
+                            android:text="@string/seminar_title"
+                            android:textColor="#263D64"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+
+                        <com.google.android.material.button.MaterialButton
+                            android:id="@+id/btnBackHome"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:backgroundTint="#263D64"
+                            android:fontFamily="@font/panaschill_font"
+                            android:text="@string/btn_back_home"
+                            android:textAllCaps="false"
+                            android:textColor="#FEDDE9"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            app:cornerRadius="30dp"
+                            app:icon="@drawable/ic_home"
+                            app:iconGravity="textStart"
+                            app:iconTint="#FEDDE9" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
